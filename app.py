@@ -1,7 +1,6 @@
 from flask import Flask, send_from_directory,Response
 import subprocess
 import os
-import pyttsx3
 app = Flask(__name__)
 
 react_folder = 'dae'
@@ -41,6 +40,3 @@ def run_hand():
 
 
 
-
-if __name__ == '__main__':
-    app.run(debug=True, threaded=True , host='0.0.0.0')
