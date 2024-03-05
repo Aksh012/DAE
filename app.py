@@ -40,3 +40,6 @@ def run_hand():
 
 
 
+
+if __name__ == '__main__':
+    app.run()
